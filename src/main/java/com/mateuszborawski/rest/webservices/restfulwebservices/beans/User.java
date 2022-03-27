@@ -1,9 +1,12 @@
 package com.mateuszborawski.rest.webservices.restfulwebservices.beans;
 
+import com.fasterxml.jackson.annotation.JsonFilter;
+
 import javax.validation.constraints.Past;
 import javax.validation.constraints.Size;
 import java.time.LocalDate;
 
+@JsonFilter("UserFilter")
 public class User {
     private Integer id;
 

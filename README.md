@@ -25,3 +25,8 @@ GET /users/{id}
 POST /users
 
 DELETE /users/{id}
+
+--------
+
+http://localhost:8080/explorer/index.html#uri=/actuator
+
